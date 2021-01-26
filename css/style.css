@@ -1,0 +1,25 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-color: gray;
+
+}
+.manu ul {
+  
+    text-align: right;
+    color: white;
+    display: flex;
+}
+.manu li{
+    margin: 10px;
+}
+.text{
+    padding: 10px;
+    color: green;
+    background-color: white;
+
+}
+.tex{
+    background-color: gray;
+}
