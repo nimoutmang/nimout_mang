@@ -2,3 +2,10 @@ body{
     background-color: gray;
 
 }
+.tex{
+    display: flex;
+}
+.tex img {
+    width: 400px;
+    height: 500px;
+}
