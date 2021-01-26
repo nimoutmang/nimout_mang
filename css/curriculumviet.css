@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(158, 157, 157);
+}
+.currin {
+    
+    display: flex;
+    margin-top: 50px;
+
+
+}
+img{
+    width: 350px;
+    height: 600px;
+    margin-left: 100px;
+    
+}
+.hi h1{
+    align-items: center;
+    color:blue;
+}
+.hi{
+    width: 50%;
+    text-align: center;
+}
+.hi h4,
+.hi p {
+    color:white;
+
+}
+.download{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-left: 240px;  
+}
+.download h4{
+    color: black;
+}
+.download:hover{
+    background: rgb(23, 250, 72);
+}

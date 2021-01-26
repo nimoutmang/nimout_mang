@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(158, 157, 157);
+}
+.question{
+    text-align: center;
+    color: blue;
+
+}
+.question p{
+    color: white;
+    
+
+}

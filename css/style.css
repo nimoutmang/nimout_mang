@@ -24,7 +24,7 @@ body{
 }
 .text{
     padding: 10px;
-    color: rgb(45, 230, 45);
+    color: blue;
     border: 1px solid white;
     width: 700px;
     height: 200px;
@@ -37,7 +37,18 @@ body{
     margin-left: 150px;
 
 }
+.text:hover{
+    background: rgba(19, 18, 18, 0.24);
+    color: yellowgreen;
+}
 .tex{
     background-color: rgb(209, 204, 204);
     
+}
+.tex img{
+    padding: 50px;
+    margin-right: 100px;
+    margin-right:200px ;
+
+
 }
