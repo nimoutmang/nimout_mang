@@ -2,7 +2,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
-    background-color: rgb(158, 157, 157);
+    background-color:white;
 
 }
 .manu ul {
@@ -10,17 +10,21 @@ body{
     text-align: right;
     color: white;
     display: flex;
+    float: right;
 }
-.manu ul li{
+.manu ul li a{
     margin: 10px;
     list-style: none;
+    
+   
 }
 .manu ul li a{
     text-decoration: none;
     padding: 10px;
 }
 .manu ul li a:hover{
-    background: green;
+    background:rgb(135, 135, 192);
+    color:blue;
 }
 .text{
     padding: 10px;
@@ -38,8 +42,9 @@ body{
 
 }
 .text:hover{
-    background: rgba(19, 18, 18, 0.24);
-    color: yellowgreen;
+    background:rgb(135, 135, 192);
+    color:white;
+    
 }
 .tex{
     background-color: rgb(209, 204, 204);
@@ -49,6 +54,4 @@ body{
     padding: 50px;
     margin-right: 100px;
     margin-right:200px ;
-
-
 }

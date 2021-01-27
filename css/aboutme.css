@@ -1,9 +1,10 @@
 body{
-    background-color: rgb(158, 157, 157);
+    background-color: white;
 
 }
 .tex{
     display: flex;
+    color:black
 }
 .tex img {
     width: 400px;

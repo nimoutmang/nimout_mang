@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(158, 157, 157);
+    background-color:white;
 }
 .currin {
     
@@ -24,7 +24,7 @@ img{
 }
 .hi h4,
 .hi p {
-    color:white;
+    color:black;
 
 }
 .download{
@@ -35,12 +35,13 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background:white;
     margin-left: 240px;  
 }
 .download h4{
     color: black;
 }
 .download:hover{
-    background: rgb(23, 250, 72);
+    background:rgba(73, 153, 243, 0.884);
+    color:white;
 }

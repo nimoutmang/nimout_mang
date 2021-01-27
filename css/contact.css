@@ -1,13 +1,27 @@
 body{
-    background-color: rgb(158, 157, 157);
+    background-color: white;
+   
 }
 .question{
     text-align: center;
-    color: blue;
+    color:blue;
 
 }
 .question p{
-    color: white;
+    color:black;
     
 
+}
+
+.box-right{
+    margin-left: 10%;
+    width: 50px;   
+}
+.contactapp {
+    margin-left: 80% 
+    
+}
+.contactapp ul li a{
+    width: 50px;
+    height: 100px;
 }
