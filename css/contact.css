@@ -12,16 +12,59 @@ body{
     
 
 }
-
-.box-right{
-    margin-left: 10%;
-    width: 50px;   
+.lable{
+    margin-top: 50px;
+    margin-left: 30%;
 }
-.contactapp {
-    margin-left: 80% 
+.contactapp{
+    margin-left: 35%;
+}
+.contactapp ul {
+    display: flex;
+}
+.contactapp ul li{
+    list-style: none;
+    padding: 20px;
+}
+.contactapp ul li a { 
+    margin-left: 30%;
+    height: 30px;
+    width: 100px;
+
     
 }
-.contactapp ul li a{
-    width: 50px;
-    height: 100px;
+.b :hover{
+    background-color: rgb(135, 135, 192);
+
 }
+.nimout{
+    margin-top: 5%;
+    margin-left: 60%;
+}
+iframe{
+    width: 80%;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+form{
+    margin-left: 18%;
+}
+input[type="text"]{
+    width: 40%;
+    height: 40px;
+    
+}
+input[type="password"]{
+    width: 81%;
+    height: 40px;
+}
+#class{
+    width: 81%;
+}
+input[type="submit"]{
+    width: 10%;
+    height: 30px;
+    
+}
+

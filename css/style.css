@@ -12,7 +12,7 @@ body{
     display: flex;
     float: right;
 }
-.manu ul li a{
+.manu ul li {
     margin: 10px;
     list-style: none;
     
@@ -21,10 +21,13 @@ body{
 .manu ul li a{
     text-decoration: none;
     padding: 10px;
+    background: rgb(135, 135, 192);
+    border-radius: 30px;
 }
 .manu ul li a:hover{
-    background:rgb(135, 135, 192);
+    background:rgba(73, 153, 243, 0.884);
     color:blue;
+    
 }
 .text{
     padding: 10px;

@@ -9,4 +9,9 @@ body{
 .tex img {
     width: 400px;
     height: 500px;
+
+}
+.i :hover{
+    background-color:rgb(135, 135, 192) ;
+
 }
