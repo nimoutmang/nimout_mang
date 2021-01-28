@@ -56,64 +56,34 @@ img{
 .a{
     color:black
 }
-h1{
+h3{
     color:white;
   
 
 }
-.c :hover{
-    background-color:rgb(135, 135, 192) ;
+.c{
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(144, 144, 219);
 }
-.bt1 {
-    border: 5px solid blue;
-    width: 300px;
-    background-color: blue;
-
-    
-}
-hr{
-    margin-top: 0%;
-}
-.bt2{
-    border: 5px solid blue;
-    width: 230px;
-    background-color: blue;
-}
-.bt3{
-    border: 5px solid blue;
-    width: 390px;
-    background-color: blue;
-}
-.bt4{
-    border: 5px solid blue;
-    width: 250px;
-    background-color: blue;
-}
-.bt5{
-    border: 5px solid blue;
-    width: 200px;
-    background-color: blue;
-}
-.bt6{
-    border: 5px solid blue;
-    width: 200px;
-    background-color: blue;
-}
-.bt7{
-    border: 5px solid blue;
-    width:480px;
-    background-color: blue;
-}
-.bt8{
-    border: 5px solid blue;
-    width: 200px;
-    background-color: blue;
-}
-.bt9{
-    border: 5px solid blue;
-    width: 200px;
-    background-color: blue;
+.c a{
+    margin: 0 1%;
+    text-decoration: none;
 }
 #class{
     width: 50%;
 }
+#my-picture{
+    width: 400px;
+    border-radius: 15px;
+    margin-top: -4%;
+    margin-left: 20%;
+    
+}
+h4{
+    margin-right: 63%;
+}
+.my-paragraph p{
+    margin-right: 55%;
+}
+

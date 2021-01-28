@@ -11,7 +11,18 @@ body{
     height: 500px;
 
 }
-.i :hover{
-    background-color:rgb(135, 135, 192) ;
-
+.i{
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(144, 144, 219);
+}
+.i a{
+    margin: 0 1%;
+    text-decoration: none;
+}
+#image-ni{
+    width: 400px;
+    border-radius: 15px;
+    
+    
 }

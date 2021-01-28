@@ -67,4 +67,12 @@ input[type="submit"]{
     height: 30px;
     
 }
-
+.b{
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(144, 144, 219);
+}
+.b a{
+    margin: 0 1%;
+    text-decoration: none;
+}

@@ -5,34 +5,35 @@ body{
     background-color:white;
 
 }
+.manu ul li {
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(144, 144, 219);
+}
 .manu ul {
-  
     text-align: right;
     color: white;
     display: flex;
     float: right;
 }
 .manu ul li {
-    margin: 10px;
     list-style: none;
     
-   
 }
 .manu ul li a{
     text-decoration: none;
     padding: 10px;
-    background: rgb(135, 135, 192);
-    border-radius: 30px;
-}
-.manu ul li a:hover{
-    background:rgba(73, 153, 243, 0.884);
-    color:blue;
+    color: white;
+    
+
     
 }
+
+    
+
 .text{
     padding: 10px;
-    color: blue;
-    border: 1px solid white;
+    border: 1px solid  rgb(144, 144, 219);
     width: 700px;
     height: 200px;
     display: flex;
@@ -41,20 +42,26 @@ body{
     margin: auto;
     margin-top: -5px;
     margin-right: 500px;
-    margin-left: 150px;
-
+    margin-left: 200px;
+    border-radius: 20px;
 }
+
 .text:hover{
-    background:rgb(135, 135, 192);
+    background:rgb(144, 144, 219);
     color:white;
     
 }
-.tex{
-    background-color: rgb(209, 204, 204);
-    
+
+
+#my-image{
+    width: 300px;
+    margin-left:35%;
+    margin-top: -15%;
+    border-radius: 15px;
 }
-.tex img{
-    padding: 50px;
-    margin-right: 100px;
-    margin-right:200px ;
+#bg{
+    width: 100%;
+    height: 600px;
+    margin-top: -1%;
+
 }
