@@ -5,10 +5,14 @@ body{
     background-color:white;
 
 }
+.manu{
+    margin-left: 55%;
+}
 .manu ul li {
     text-align: right;
     padding: 10px;
-    background-color: rgb(144, 144, 219);
+    background-color: rgba(221, 66, 66, 0.884);
+    
 }
 .manu ul {
     text-align: right;
@@ -20,6 +24,9 @@ body{
     list-style: none;
     
 }
+.manu ul :hover{
+    background-color: rgb(46, 241, 199);
+}
 .manu ul li a{
     text-decoration: none;
     padding: 10px;
@@ -28,12 +35,59 @@ body{
 
     
 }
-
+.pf-soft{
+    display: flex;
+    justify-content: space-around;
+}
+.my-pf {
+    margin-top: 3%;
+    width: 20%;
+    height:300px;
+    background-color: rgba(238, 230, 230, 0.561);
+    color:rgba(221, 66, 66, 0.884) ;
+    text-align:center;
+    padding:3%;
     
 
+}
+.my-pf img{
+    width: 80%;
+    height: 80%;
+}
+.my-pf p{
+    color:rgba(221, 66, 66, 0.884);
+    margin-top: -80%;
+    
+}
+
+    
+.my-soft{
+    margin-top: 3%;
+    width: 20%;
+    height:300px;
+    background-color: rgba(238, 230, 230, 0.561);
+    color: rgba(221, 66, 66, 0.884);
+    text-align:center;
+    padding:3%;
+    
+}
+.my-hard{
+    margin-top: 3%;
+    width: 20%;
+    height:300px;
+    background-color: rgba(238, 230, 230, 0.561);
+    color: rgba(221, 66, 66, 0.884);
+    text-align:center;
+    padding:3%;
+      
+}
+.my-pf img{
+    width: 80%;
+    height: 80%;
+}
 .text{
     padding: 10px;
-    border: 1px solid  rgb(144, 144, 219);
+    border: 1px solid rgb(144, 144, 219);
     width: 700px;
     height: 200px;
     display: flex;
@@ -44,13 +98,17 @@ body{
     margin-right: 500px;
     margin-left: 200px;
     border-radius: 20px;
+    background-color:rgba(221, 66, 66, 0.884);
 }
-
-.text:hover{
-    background:rgb(144, 144, 219);
-    color:white;
+.text h1{
+    text-align: center;
+    margin-top: 11%;
+    color: white;
     
-}
+} 
+
+
+
 
 
 #my-image{
@@ -61,7 +119,7 @@ body{
 }
 #bg{
     width: 100%;
-    height: 600px;
+    height: 400px;
     margin-top: -1%;
 
 }

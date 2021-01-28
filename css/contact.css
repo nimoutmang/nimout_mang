@@ -33,10 +33,9 @@ body{
 
     
 }
-.b :hover{
-    background-color: rgb(135, 135, 192);
 
-}
+
+
 .nimout{
     margin-top: 5%;
     margin-left: 60%;
@@ -69,10 +68,23 @@ input[type="submit"]{
 }
 .b{
     text-align: right;
-    padding: 10px;
-    background-color: rgb(144, 144, 219);
+    background-color:  rgba(221, 66, 66, 0.884);
 }
-.b a{
-    margin: 0 1%;
+.b ul :hover{
+    background:rgb(46, 241, 199);
+
+}
+.b ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+.b ul{
+    display: flex;
+    
+}
+.b ul li a{
+
     text-decoration: none;
+    color:white;
 }

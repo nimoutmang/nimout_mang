@@ -36,10 +36,11 @@ img{
     justify-content: center;
     align-items: center;
     background: rgb(135, 135, 192) ;
-    margin-left: 240px;  
+    margin-left: 180px;  
 }
 .download a{
     list-style: none;
+    text-decoration: none;
     
     
 
@@ -63,27 +64,70 @@ h3{
 }
 .c{
     text-align: right;
-    padding: 10px;
-    background-color: rgb(144, 144, 219);
+    background-color:  rgba(221, 66, 66, 0.884);
 }
-.c a{
-    margin: 0 1%;
+.c ul :hover{
+    background:rgb(46, 241, 199);
+
+}
+.c ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+.c ul{
+    display: flex;
+    
+}
+.c ul li a{
+
     text-decoration: none;
+    color:white;
 }
 #class{
     width: 50%;
 }
 #my-picture{
-    width: 400px;
+    width: 380px;
+    height: 400px;
     border-radius: 15px;
-    margin-top: -4%;
-    margin-left: 20%;
+    margin-top: 0;
+    margin-right: 15%;
     
 }
-h4{
+h2{
     margin-right: 63%;
+    color: blue;
+
+}
+.box{
+    display: flex;
 }
 .my-paragraph p{
-    margin-right: 55%;
+    color: white;
+    overflow: hidden;
+    text-align: center;
 }
+.my-paragraph{
+    background: rgba(0, 0, 0, 0.438);
+    margin-left: 100px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.thisismyapp{
+    margin-left: 30%;
+    height: 30px;
+    width: 100px;
+    margin-left: 40%;
+}
+.thisismyapp ul li{
+    list-style: none;
+    padding: 20px;
+}
+.thisismyapp ul {
+    display: flex;
+}
+
+
 

@@ -1,28 +1,70 @@
 body{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.966);
 
+}
+#about{
+    text-align: center;
+    color: cornflowerblue;
 }
 .tex{
     display: flex;
-    color:black
+    color:rgb(248, 245, 245);
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.tex p{
+    width: 400px;
+    background: rgba(0, 0, 0, 0.438);
+    padding: 30px;
+    border-radius: 10px;
 }
 .tex img {
     width: 400px;
     height: 500px;
-
 }
 .i{
     text-align: right;
-    padding: 10px;
-    background-color: rgb(144, 144, 219);
+    background-color:  rgba(221, 66, 66, 0.884);
 }
-.i a{
-    margin: 0 1%;
+.i ul :hover{
+    background:rgb(46, 241, 199);
+
+}
+.i ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+.i ul{
+    display: flex;
+    
+}
+.i ul li a{
+
     text-decoration: none;
+    color:white;
+    
+
+   
+    
 }
 #image-ni{
     width: 400px;
     border-radius: 15px;
     
     
+    
+}
+.myapp{
+    margin-left: 30%;
+    height: 30px;
+    width: 100px;
+}
+.myapp ul li{
+    list-style: none;
+    padding: 20px;
+}
+.myapp ul {
+    display: flex;
 }
