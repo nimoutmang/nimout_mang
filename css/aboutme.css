@@ -1,55 +1,74 @@
 body{
     background-color: rgba(255, 255, 255, 0.966);
+    overflow-x: hidden;
+    
 
 }
 #about{
     text-align: center;
     color: cornflowerblue;
+    
+
 }
-.tex{
+.tex {
+    width: 100%;
+    height: auto;
     display: flex;
-    color:rgb(248, 245, 245);
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 50px;
-
 }
-.tex p{
-    width: 400px;
-    background: rgba(0, 0, 0, 0.438);
-    padding: 30px;
+.tex > .text {
+    width: 50%;
+    background: rgb(121, 128, 116);
     border-radius: 10px;
-}
-.tex img {
-    width: 400px;
-    height: 500px;
-}
-.i{
-    text-align: right;
-    background-color:  rgba(221, 66, 66, 0.884);
-}
-.i ul :hover{
-    background:rgb(46, 241, 199);
+    color: white;
 
 }
-.i ul li{
-    list-style: none;
-    padding: 10px;
-    
+.tex > .pic {
+     width: 30%;
 }
-.i ul{
+.tex > .pic > img {
+    width: 100%;
+}
+.manu{
     display: flex;
-    
+    width: 100%;
 }
-.i ul li a{
-
-    text-decoration: none;
-    color:white;
-    
-
+.manu ul li {
    
+    padding: 10px;
+    background-color: rgba(221, 66, 66, 0.884);
     
 }
-#image-ni{
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.manu ul {
+    
+    color: white;
+    display: flex;
+   
+   
+}
+.manu ul li {
+    list-style: none;
+    
+}
+.manu ul :hover{
+    background-color: rgb(46, 241, 199);
+}
+.manu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+    
+}
+.tex img{
     width: 400px;
     border-radius: 15px;
     
@@ -60,6 +79,7 @@ body{
     margin-left: 30%;
     height: 30px;
     width: 100px;
+    
 }
 .myapp ul li{
     list-style: none;
@@ -67,4 +87,32 @@ body{
 }
 .myapp ul {
     display: flex;
+
 }
+@media(max-width:678px){
+    nav{
+        justify-content: center;
+    }
+    .tex {
+        flex-direction: column;
+       
+        
+    }
+    .tex > .text {
+        width: 100%;
+    }
+    .tex > .pic {
+        width: 100%;
+    }
+    .pic{
+        margin-top: 5%;
+    }
+    .myapp{
+        flex-direction: column;
+    }
+
+    
+    
+}
+
+

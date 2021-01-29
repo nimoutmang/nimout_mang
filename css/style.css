@@ -3,22 +3,30 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
     background-color:white;
+    overflow-x: hidden;
 
 }
 .manu{
-    margin-left: 55%;
+    display: flex;
+    width: 100%;
 }
 .manu ul li {
-    text-align: right;
+   
     padding: 10px;
     background-color: rgba(221, 66, 66, 0.884);
     
 }
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 .manu ul {
-    text-align: right;
+    
     color: white;
     display: flex;
-    float: right;
+   
+   
 }
 .manu ul li {
     list-style: none;
@@ -31,6 +39,7 @@ body{
     text-decoration: none;
     padding: 10px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
     
 
     
@@ -88,7 +97,7 @@ body{
 .text{
     padding: 10px;
     border: 1px solid rgb(144, 144, 219);
-    width: 700px;
+    width: 600px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -121,5 +130,27 @@ body{
     width: 100%;
     height: 400px;
     margin-top: -1%;
+
+}
+@media(max-width:678px){
+    .pf-soft{
+        flex-direction: column;
+    }
+    .my-pf,.my-hard,.my-soft{
+        width: 100%;
+
+    }
+    .my-pf img{
+        width: 100px;;
+    }
+   
+    .pf p{
+        width: 100px;
+    }  
+    
+    .text {
+        width: 100px;
+    }
+
 
 }

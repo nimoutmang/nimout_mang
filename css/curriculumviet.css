@@ -1,5 +1,7 @@
 body{
     background-color:white;
+    overflow-x: hidden;
+    
 }
 .currin {
     
@@ -9,13 +11,13 @@ body{
 
 }
 img{
-    width: 350px;
+    width: 400px;
     height: 600px;
     margin-left: 100px;
     
 }
 .hi h1{
-    align-items: center;
+    text-align: center;
     color:blue;
 }
 .hi{
@@ -30,27 +32,23 @@ img{
 .download{
     width: 150px;
     height: 50px;
-   
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(135, 135, 192) ;
+    background: rgba(221, 66, 66, 0.884) ;
     margin-left: 180px;  
+    
 }
 .download a{
     list-style: none;
     text-decoration: none;
-    
-    
-
-}
-.download h4{
-    color: black;
-}
-.download:hover{
-    background:rgba(73, 153, 243, 0.884);
     color:white;
+}
+
+.download:hover{
+    background:rgb(46, 241, 199);
+
     border-radius: 30px;
     
 }
@@ -62,56 +60,73 @@ h3{
   
 
 }
-.c{
-    text-align: right;
-    background-color:  rgba(221, 66, 66, 0.884);
-}
-.c ul :hover{
-    background:rgb(46, 241, 199);
-
-}
-.c ul li{
-    list-style: none;
-    padding: 10px;
-    
-}
-.c ul{
+.manu{
     display: flex;
+    width: 100%;
+}
+.manu ul li {
+   
+    padding: 10px;
+    background-color: rgba(221, 66, 66, 0.884);
     
 }
-.c ul li a{
-
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.manu ul {
+    
+    color: white;
+    display: flex;
+   
+   
+}
+.manu ul li {
+    list-style: none;
+    
+}
+.manu ul :hover{
+    background-color: rgb(46, 241, 199);
+}
+.manu ul li a{
     text-decoration: none;
-    color:white;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 #class{
     width: 50%;
 }
 #my-picture{
-    width: 380px;
-    height: 400px;
+    width: 500px;
+    height: 550px;
     border-radius: 15px;
     margin-top: 0;
     margin-right: 15%;
     
 }
 h2{
-    margin-right: 63%;
+    
+    margin-left: 10%;
     color: blue;
+    
 
 }
 .box{
     display: flex;
 }
 .my-paragraph p{
+    margin-top: 5%;
     color: white;
     overflow: hidden;
     text-align: center;
 }
 .my-paragraph{
     background: rgba(0, 0, 0, 0.438);
-    margin-left: 100px;
-    height: 400px;
+    margin-left: 60px;
+    height: 550px;
     border-radius: 10px;
 
 }
@@ -128,6 +143,23 @@ h2{
 .thisismyapp ul {
     display: flex;
 }
+@media(max-width:678px){
+    nav {
+        justify-content: center;
+    }
+   
+    
+    .box{
+        flex-direction: column;
+    }
+    .box,.my-paragraph,.download a{
+        width: 100%;
+    }
+    #my-picture{
+        margin-top: 5%;
+    }
 
+     
+ }
 
 

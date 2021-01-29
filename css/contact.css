@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    overflow-x: hidden;
    
 }
 .question{
@@ -17,7 +18,9 @@ body{
     margin-left: 30%;
 }
 .contactapp{
-    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contactapp ul {
     display: flex;
@@ -27,15 +30,51 @@ body{
     padding: 20px;
 }
 .contactapp ul li a { 
-    margin-left: 30%;
+
     height: 30px;
     width: 100px;
 
     
 }
+.manu{
+    display: flex;
+    width: 100%;
+    
+}
+.manu ul li {
+   
+    padding: 10px;
+    background-color: rgba(221, 66, 66, 0.884);
+    
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.manu ul {
+    
+    color: white;
+    display: flex;
+   
+   
+}
+.manu ul li {
+    list-style: none;
+    
+}
+.manu ul :hover{
+    background-color: rgb(46, 241, 199);
+}
+.manu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
 
-
-
+    
+}
 .nimout{
     margin-top: 5%;
     margin-left: 60%;
@@ -66,25 +105,14 @@ input[type="submit"]{
     height: 30px;
     
 }
-.b{
-    text-align: right;
-    background-color:  rgba(221, 66, 66, 0.884);
-}
-.b ul :hover{
-    background:rgb(46, 241, 199);
 
-}
-.b ul li{
-    list-style: none;
-    padding: 10px;
+@media(max-width:678px){
+   nav {
+       justify-content: center;
+   }
+   form input[type="text"]{
+       width: 81%;
+       margin-top: 10px;
+   }
     
-}
-.b ul{
-    display: flex;
-    
-}
-.b ul li a{
-
-    text-decoration: none;
-    color:white;
 }
